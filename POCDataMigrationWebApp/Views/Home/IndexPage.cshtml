@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Data Migration";
+}
+<style>
+    .error-message {
+        color:red;
+        margin-left: 10px;
+    }
+</style>
+
+<div style="display:flex; margin-top: 30px">
+    <div class="field">
+        <label for="dbserver">Database Server Name</label>
+        <input type="search" class="form-control" name="dbserver" id="dbserver">
+    </div>
+
+    <div class="field">
+        <label for="dbname">Database Name</label>
+        <input type="search" class="form-control" name="dbname" id="dbname">
+    </div>
+
+    <div class="field">
+        <label for="dbuser">Database Username</label>
+        <input type="search" class="form-control" name="dbuser" id="dbuser">
+    </div>
+
+    <div class="field">
+        <label for="dbpwd">Database Password</label>
+        <input type="password" class="form-control" name="dbpwd" id="dbpwd">
+    </div>
+
+    <div class="field">
+        <button id="Submit" value="submit" class="searchicon" onclick="getSchema()">
+            <img src="~/search.png" />
+        </button>
+    </div> 
+</div>
+<div id="loader" style="display: none; margin-left: 10px; margin-top:5px">
+    <i class="fa fa-spinner fa-spin fa-2x"></i>
+</div>
+<div class="error-message" style="display:none;"></div>
+<div class="schema" style="display:none; margin-left:10px; margin-top:20px;">
+    <label for="schema">Add Schema:</label>
+    <select name="schema" id="schema" onchange="showTables()">
+        <option value="blank">Select Schema</option>
+    </select>
+</div>
+
+<div id="source-data-window"></div>
+
+<div class="field" id="app-ci" style="display: none; width:1000px; margin-top: 10px;">
+    <label for="appCIName" style="display:block;">App CI Name</label>
+    <input type="search" class="form-control" name="appCIName" id="appCIName" style="display:inline; width:250px;">
+    <input type="button" id="btn-app-ci" value="Validate" onclick="checkContainer()"/>
+    <span id="app-ci-loading-container"></span>
+    <p id="valid-app-ci" style="display: none; color: green">Valid App CI Name</p>
+    <p id="invalid-app-ci" style="display: none; color: orangered">App CI Name already exist. Please use some other name to avoid overwritting</p>
+</div>
+
+<input type="button" id="migratebtn" value="Migrate" class="btn btn-primary" onclick="migrate()" style="display:none; margin-top:10px; margin-left:5px;" />
+<div id="migrate-loading"></div>
+
+

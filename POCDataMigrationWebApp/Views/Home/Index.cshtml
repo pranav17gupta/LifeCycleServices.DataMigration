@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Data Migration";
+}
+
+@*method="post" asp-action="JobTrigger" asp-controller="Home"*@
+
+<div class="container inputform">
+    <div>
+        <form id="myform">
+            <div class="form-group">
+                <label for="dbserver">Database Server Name</label>
+                <input type="text" name="dbserver" id="dbserver" class="form-control" placeholder="Enter Database Server Name">
+            </div>
+            <div class="form-group">
+                <label for="dbname">Database Name</label>
+                <input type="text" name="dbname" id="dbname" class="form-control" placeholder="Enter Database Name">
+            </div>
+            <div class="form-group">
+                <label for="dbuser">Database Username</label>
+                <input type="text" name="dbuser" id="dbuser" class="form-control" placeholder="Enter Username">
+            </div>
+            <div class="form-group">
+                <label for="dbpwd">Database Password</label>
+                <input type="password" name="dbpwd" id="dbpwd" class="form-control" placeholder="Enter Password">
+            </div>
+            <div class="form-group">
+                <label for="schema">Databse Schema Name</label>
+                <input type="text" name="schema" id="schema" class="form-control" placeholder="Enter Database Schema Name">
+            </div>
+            <div class="form-group">
+                <label for="storageaccount">Storage Account Name</label>
+                <input type="text" name="storageaccount" id="storageaccount" class="form-control" placeholder="Enter Storage Account Name">
+            </div><br />
+            <input type="button" id="migratebtn" value="Submit" class="btn btn-primary" onclick="migrateData()" />
+        </form>
+
+        <div id="loader" style="display: none; margin-left: 180px;">
+            <img src="~/loader.gif" syle="height:15px; width:15px"/>
+        </div>
+
+    </div>
+</div>

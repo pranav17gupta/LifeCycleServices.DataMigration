@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<div class="container resultform" id="migrating">
+    <i class="fa fa-spinner fa-spin fa-2x"></i>
+    <p class="text-secondary h2">Migrating Data</p>
+    <p><span class="font-weight-bold">Status: </span><span id="status"></span></p>
+    <div class="bar">
+        <div class="progressbar">
+            <span id="percent"></span>
+        </div>
+    </div>
+</div>
+
+<div class="container resultform" id="migrated" style="display: none">
+    <i class="fa-regular fa-circle-check fa-3x"></i>
+    <p class="text-success h2">Congratulation</p>
+    <br />
+    <p class="text-secondary">You have successfully migrated your data to <span id="res"></span> container</p>
+</div>
+
+<script>
+    var runId = @ViewBag.RunId;
+    console.log("runid="+runId);
+</script>
+
+<script src="~/js/jobstatus.js" defer> </script>

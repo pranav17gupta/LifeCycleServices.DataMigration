@@ -1,0 +1,126 @@
+﻿.appheader {
+    height: 58px;
+    background: #dfdede;
+    border-radius: var(--border-radius,3px) var(--border-radius,3px) 0px 0px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    color: #00338e;
+}
+
+.titledm {
+    display: inline-block;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.icon {
+    height: 80%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.inputform{
+    background-color: #f7f3f3;
+    margin: auto;
+    padding: 50px;
+    margin-top: 80px;
+    width: 50%;
+}
+
+.resultform {
+    background-color: #f7f3f3;
+    margin: auto;
+    padding: 50px;
+    margin-top: 80px;
+    width: 70%;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.bar {
+    height: 30px;
+    background-color: #CCC;
+    position: relative;
+    border-radius: 7px;
+}
+
+.bar .progressbar {
+    position: absolute;
+    height: 100%;
+    background-color: darkgreen;
+    border-radius: 7px;
+    width: 2%;
+    text-align: center;
+    font-size: 80%;
+}
+
+#percent {
+    color: aqua;
+    display: table;
+    margin: 0 auto;
+}
+
+.field {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.searchicon {
+    background-color: inherit;
+    position: relative;
+    top: 24px;
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+}
+
+.schema-window {
+    background-color: #f7f3f3;
+    margin: auto;
+    padding: 50px;
+    padding-top: 5px;
+    margin-top: 40px;
+    width: 70%;
+    height: 300px;
+    font-size: 25px;
+    position: relative;
+    font-weight: bold;
+    color: darkgreen;
+    /*overflow: auto;*/
+}
+#closebtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.table-list {
+    color: black;
+    font-weight: normal;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+table, th, td {
+    border: 2px solid;
+    border-color: black;
+    
+}
+
+tbody {
+    height: 100%;
+    overflow-y: auto; /* Trigger vertical scroll    */
+    overflow-x: hidden; /* Hide the horizontal scroll */
+}
+
+td {
+    height: 22px;
+}
+
+.schema-table-window {
+    height: 100%;
+    overflow: auto;
+}

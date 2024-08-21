@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] Portal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/POCDataMigrationWebApp.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="~/css/style.css" />
+    <link rel="icon" href="~/Providence_Icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="appheader">
+        <img class="icon" src="~/Providence_RGB2.png" onclick="showhome()"/>
+        <span class="titledm" onclick="showhome()"> &nbsp |  &nbsp  Data Migration Portal</span>
+    </div>
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/jobtrigger.js" defer> </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
