@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+BU3HHrjBnUdbBwDRv16y36iIAzoC6vdu+mBRO3fe7Z0BdRPazXAyLrxu/Wq3PrCqATeDfJN7AVx8ihcQdbW1A==",
+  "dgSpecHash": "FnrChyfd01ixhdYTaZAMNAuL8GT2cy0/W7vCYACsPcCkkd/0g9/yyPKFNKoFZK+flYDdOu0Cf3HgJfx/dU5TsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\prana\\Downloads\\Telegram Desktop\\ISLifecycleServices.LAP.ArchivalPortal\\ISLifecycleServices.DataMigration\\POCDataMigration\\POCDataMigrationAPI.csproj",
+  "projectFilePath": "C:\\Users\\prana\\source\\repos\\pranav17gupta\\LifeCycleServices.DataMigration\\POCDataMigration\\POCDataMigrationAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prana\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\prana\\.nuget\\packages\\azure.identity\\1.8.0\\azure.identity.1.8.0.nupkg.sha512",

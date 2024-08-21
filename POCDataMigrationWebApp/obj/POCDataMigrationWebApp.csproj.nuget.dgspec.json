@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\prana\\Downloads\\Telegram Desktop\\ISLifecycleServices.LAP.ArchivalPortal\\ISLifecycleServices.DataMigration\\POCDataMigrationWebApp\\POCDataMigrationWebApp.csproj": {}
+    "C:\\Users\\prana\\source\\repos\\pranav17gupta\\LifeCycleServices.DataMigration\\POCDataMigrationWebApp\\POCDataMigrationWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\prana\\Downloads\\Telegram Desktop\\ISLifecycleServices.LAP.ArchivalPortal\\ISLifecycleServices.DataMigration\\POCDataMigrationWebApp\\POCDataMigrationWebApp.csproj": {
+    "C:\\Users\\prana\\source\\repos\\pranav17gupta\\LifeCycleServices.DataMigration\\POCDataMigrationWebApp\\POCDataMigrationWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\prana\\Downloads\\Telegram Desktop\\ISLifecycleServices.LAP.ArchivalPortal\\ISLifecycleServices.DataMigration\\POCDataMigrationWebApp\\POCDataMigrationWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\prana\\source\\repos\\pranav17gupta\\LifeCycleServices.DataMigration\\POCDataMigrationWebApp\\POCDataMigrationWebApp.csproj",
         "projectName": "POCDataMigrationWebApp",
-        "projectPath": "C:\\Users\\prana\\Downloads\\Telegram Desktop\\ISLifecycleServices.LAP.ArchivalPortal\\ISLifecycleServices.DataMigration\\POCDataMigrationWebApp\\POCDataMigrationWebApp.csproj",
+        "projectPath": "C:\\Users\\prana\\source\\repos\\pranav17gupta\\LifeCycleServices.DataMigration\\POCDataMigrationWebApp\\POCDataMigrationWebApp.csproj",
         "packagesPath": "C:\\Users\\prana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\prana\\Downloads\\Telegram Desktop\\ISLifecycleServices.LAP.ArchivalPortal\\ISLifecycleServices.DataMigration\\POCDataMigrationWebApp\\obj\\",
+        "outputPath": "C:\\Users\\prana\\source\\repos\\pranav17gupta\\LifeCycleServices.DataMigration\\POCDataMigrationWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\prana\\AppData\\Roaming\\NuGet\\NuGet.Config",

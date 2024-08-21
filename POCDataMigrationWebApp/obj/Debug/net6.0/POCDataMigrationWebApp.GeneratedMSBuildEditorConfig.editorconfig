@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = POCDataMigrationWebApp
 build_property.RootNamespace = POCDataMigrationWebApp
-build_property.ProjectDir = C:\Users\prana\Source\Repos\pranav17gupta\LifeCycleServices.DataMigration\POCDataMigrationWebApp\
+build_property.ProjectDir = C:\Users\prana\source\repos\pranav17gupta\LifeCycleServices.DataMigration\POCDataMigrationWebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\prana\Source\Repos\pranav17gupta\LifeCycleServices.DataMigration\POCDataMigrationWebApp
+build_property.MSBuildProjectDirectory = C:\Users\prana\source\repos\pranav17gupta\LifeCycleServices.DataMigration\POCDataMigrationWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/prana/Source/Repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Home/Index.cshtml]
+[C:/Users/prana/source/repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/prana/Source/Repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Home/IndexPage.cshtml]
+[C:/Users/prana/source/repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Home/IndexPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/prana/Source/Repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Home/JobTrigger.cshtml]
+[C:/Users/prana/source/repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Home/JobTrigger.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxKb2JUcmlnZ2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/prana/Source/Repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Home/Privacy.cshtml]
+[C:/Users/prana/source/repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/prana/Source/Repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Home/ViewResult.cshtml]
+[C:/Users/prana/source/repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Home/ViewResult.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWV3UmVzdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/prana/Source/Repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Shared/Error.cshtml]
+[C:/Users/prana/source/repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/prana/Source/Repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/prana/source/repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/prana/Source/Repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/_ViewImports.cshtml]
+[C:/Users/prana/source/repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/prana/Source/Repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/_ViewStart.cshtml]
+[C:/Users/prana/source/repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/prana/Source/Repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/prana/source/repos/pranav17gupta/LifeCycleServices.DataMigration/POCDataMigrationWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8xxd0zh0w3
